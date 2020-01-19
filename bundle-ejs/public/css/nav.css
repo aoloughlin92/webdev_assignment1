@@ -1,0 +1,22 @@
+ul#menu li {
+	display:inline;
+	padding-right:8em;
+	padding-left: 0em;
+
+}
+
+#menu li.active a {
+	background: #AFEEEE;
+	padding: 15px 15px 15px 15px;
+	
+}
+
+#menu li a {
+	color:white;
+	
+}
+
+#homepage a {
+	text-decoration: none;
+	font-family: Verdana, sans-serif;	
+}

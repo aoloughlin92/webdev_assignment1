@@ -1,0 +1,107 @@
+
+/* Header for all pages*/
+.header {
+ background-image: url("../images/header.jpg");
+ background-repeat: no-repeat;
+ background-position: right;
+ height: 80px;
+}
+
+/* menu bar for all pages*/
+#navigation {
+
+  height:40px;
+  text-align: left;
+  border-color: white;
+  border-style:solid;
+  background-color:darkgrey;
+ }
+
+/*format the footer for all pages*/
+.footer{
+	background-color: #AFEEEE;
+}
+
+/*
+homepage grids
+
+grids for quick links on homepage
+*/
+
+#homepage{
+	display:grid;
+	grid-template-columns: 5%,28%, 3%,28%,3%, 28% 5%;
+	background-color: #AFEEEE;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+#silkKnot{
+	grid-column-start: 2;
+}
+
+#basicClimb{
+	grid-column-start: 4;
+}
+
+#russianClimb{
+	grid-column-start: 6;
+}
+
+/* change width for images on homepage quicklinks*/
+.homepage-image{
+	width: 400px;
+	border-color:pink;
+	border-style:solid;
+}
+
+
+/*container for image on mainpage */
+#container{
+	display:grid;
+	grid-template-columns:  65%, 35%;
+}
+
+#main-body{
+	grid-column-start: 1;
+}
+
+#mainpage-image{
+	grid-column-start: 2;
+}
+
+
+/* grid for sidebar */
+#contents{
+	display: grid;
+	grid-template-columns: 52% 28% 20%;
+}
+
+/*Make the sidebar menu */
+#sidebar{
+	background-color: #AFEEEE;
+	border-style: solid;
+	border-color:white;
+	grid-column-start: 3;
+}
+
+/*format the sidebar image*/
+.sidebar-image{
+	width: 100px;
+	border-color:black;
+	border-style:solid;
+}
+
+
+#page-text{
+	grid-column-start: 1;
+}
+
+#page-image{
+	grid-column-start: 2;
+}
+.container-image{
+	width: 100%;
+	padding-top: 20px;
+}
+
